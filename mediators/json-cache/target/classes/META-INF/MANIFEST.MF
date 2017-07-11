@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1499746405845
+Build-Jdk: 1.8.0_101
+Built-By: raj
+Bundle-ManifestVersion: 2
+Bundle-Name: json-cache
+Bundle-SymbolicName: json-cache
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.mediatos.cache.json;uses:="javax.xml.nam
+ espace,org.wso2.carbon.mediatos.cache.json.digest";version="1.0.0",org.
+ wso2.carbon.mediatos.cache.json.config.xml;uses:="javax.xml.namespace";
+ version="1.0.0",org.wso2.carbon.mediatos.cache.json.digest;uses:="org.w
+ so2.carbon.mediatos.cache.json";version="1.0.0",org.wso2.carbon.mediato
+ s.cache.json.util;version="1.0.0"
+Fragment-Host: synapse-core
+Import-Package: javax.xml.namespace
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.3.0.201609221906
