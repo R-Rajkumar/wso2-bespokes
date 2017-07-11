@@ -16,7 +16,7 @@
  * under the License.
  */
 
-package org.wso2.carbon.mediatos.cache.json.config.xml;
+package org.wso2.carbon.mediator.cache.json.config.xml;
 
 import org.apache.axiom.om.OMAttribute;
 import org.apache.axiom.om.OMElement;
@@ -26,9 +26,9 @@ import org.apache.synapse.Mediator;
 import org.apache.synapse.config.xml.AbstractMediatorFactory;
 import org.apache.synapse.config.xml.SequenceMediatorFactory;
 import org.apache.synapse.config.xml.XMLConfigConstants;
-import org.wso2.carbon.mediatos.cache.json.CacheMediator;
-import org.wso2.carbon.mediatos.cache.json.CachingConstants;
-import org.wso2.carbon.mediatos.cache.json.digest.DigestGenerator;
+import org.wso2.carbon.mediator.cache.json.CacheMediator;
+import org.wso2.carbon.mediator.cache.json.CachingConstants;
+import org.wso2.carbon.mediator.cache.json.digest.DigestGenerator;
 
 import javax.xml.namespace.QName;
 import java.util.Iterator;

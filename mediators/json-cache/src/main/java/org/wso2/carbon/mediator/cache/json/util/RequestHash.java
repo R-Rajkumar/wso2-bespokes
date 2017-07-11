@@ -15,7 +15,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.wso2.carbon.mediatos.cache.json.util;
+package org.wso2.carbon.mediator.cache.json.util;
 
 import java.io.Serializable;
 

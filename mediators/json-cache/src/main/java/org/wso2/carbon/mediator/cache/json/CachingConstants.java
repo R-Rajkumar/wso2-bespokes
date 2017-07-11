@@ -16,11 +16,11 @@
  * under the License.
  */
 
-package org.wso2.carbon.mediatos.cache.json;
+package org.wso2.carbon.mediator.cache.json;
 
 import org.apache.synapse.config.xml.XMLConfigConstants;
-import org.wso2.carbon.mediatos.cache.json.digest.DigestGenerator;
-import org.wso2.carbon.mediatos.cache.json.digest.ReqUrlHashGenerator;
+import org.wso2.carbon.mediator.cache.json.digest.ReqUrlHashGenerator;
+import org.wso2.carbon.mediator.cache.json.digest.DigestGenerator;
 
 import javax.xml.namespace.QName;
 

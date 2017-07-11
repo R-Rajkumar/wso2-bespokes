@@ -16,14 +16,14 @@
  * under the License.
  */
 
-package org.wso2.carbon.mediatos.cache.json.config.xml;
+package org.wso2.carbon.mediator.cache.json.config.xml;
 
 import org.apache.axiom.om.OMElement;
 import org.apache.synapse.Mediator;
 import org.apache.synapse.config.xml.AbstractMediatorSerializer;
 import org.apache.synapse.config.xml.MediatorSerializer;
 import org.apache.synapse.config.xml.MediatorSerializerFinder;
-import org.wso2.carbon.mediatos.cache.json.CacheMediator;
+import org.wso2.carbon.mediator.cache.json.CacheMediator;
 
 import java.util.List;
 

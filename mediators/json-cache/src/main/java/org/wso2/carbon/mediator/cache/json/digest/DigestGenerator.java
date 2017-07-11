@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.wso2.carbon.mediatos.cache.json.digest;
+package org.wso2.carbon.mediator.cache.json.digest;
 
 import org.apache.axis2.context.MessageContext;
-import org.wso2.carbon.mediatos.cache.json.CachingException;
+import org.wso2.carbon.mediator.cache.json.CachingException;
 
 import java.io.Serializable;
 

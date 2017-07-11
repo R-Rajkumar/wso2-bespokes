@@ -15,7 +15,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.wso2.carbon.mediatos.cache.json;
+package org.wso2.carbon.mediator.cache.json;
 
 import org.apache.axis2.clustering.ClusteringFault;
 import org.apache.axis2.clustering.state.Replicator;
@@ -33,8 +33,8 @@ import org.apache.synapse.core.axis2.Axis2Sender;
 import org.apache.synapse.debug.constructs.EnclosedInlinedSequence;
 import org.apache.synapse.mediators.AbstractMediator;
 import org.apache.synapse.mediators.base.SequenceMediator;
-import org.wso2.carbon.mediatos.cache.json.digest.DigestGenerator;
-import org.wso2.carbon.mediatos.cache.json.util.RequestHash;
+import org.wso2.carbon.mediator.cache.json.util.RequestHash;
+import org.wso2.carbon.mediator.cache.json.digest.DigestGenerator;
 
 import javax.cache.*;
 import java.util.Map;
